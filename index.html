@@ -6,9 +6,11 @@
       <title>FWD Demo</title>
    </head>
    <body>
+      <script src="index.js"></script>
       <h1>₊˚⊹⋆ Magic 8 Ball ⋆⊹˚₊</h1>
-      <p id="prompt">Welcome to <strong>Magic 8 Ball</strong>, <u>click the button</u> to reveal the answer to the question!</p>
+      <p class="prompt">Welcome to <strong>Magic 8 Ball</strong>, <u>click the button</u> to reveal the answer to the question!</p>
       <p class="question"><em>Question: Will today be a good day?</em></p>
-      <button>Ask Me</button>
+      <button id="ans_btn"onclick="display_ans()">Ask Me</button>
+      <p id="answer"></p>
    </body>
 </html>

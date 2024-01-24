@@ -8,7 +8,7 @@ h1 {
    background-color: white;
 }
 
-#prompt {
+.prompt {
    font-size: 20px;
 }
 
@@ -17,13 +17,21 @@ h1 {
    font-weight: bold;
 }
 
-button {
+#ans_btn {
    font-size: 20px;
    color: black;
    background-color: white;
+   height: 50px;
+   width: 100px;
 }
 
-button:hover {
+#ans_btn:hover {
    color: white;
    background-color: black;
+}
+
+#answer {
+   font-size: 25px;
+   font-weight: bold;
+   font-style: italic;
 }
